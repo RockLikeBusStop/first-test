@@ -1,12 +1,37 @@
 fn main() {
-    let mut x = 45;
-    println!("x is {}", x);
-    x = 90;
-    println!("x is changed to {}", x);
+    // let mut n = 1;
 
-    if x < 30 {
-        println!("x is less than 30");
-    } else {
-        println!("x is greater than or equal to 30");
+    // loop {
+    //     n += 1;
+    //
+    //     if n == 5 {
+    //         continue;
+    //     }
+    //
+    //     if n > 10 {
+    //         break;
+    //     }
+    //
+    //     println!("n is {}", n);
+    // }
+
+    // while n <= 50 {
+    //
+    //     if n % 5 == 0 {
+    //         println!("n is {}", n);
+    //     }
+    //     n+=1;
+    // }
+
+    // let nums = 30..51;
+    // for num in nums {
+    //     println!("num is {}", nums);
+    // }
+
+    let animals = vec!["Rabbit", "Dog", "Cat"];
+    for (index, animal)  in animals.iter().enumerate() {
+        println!("{}:{}",index,animal);
     }
+
+    println!("animal 1 is {}", animals[0]);
 }
