@@ -36,4 +36,5 @@ fn main() {
     let animals = [0; 20];
 
     println!("animal 1 is {}", animals);
+    println!("Hello, World!");
 }
