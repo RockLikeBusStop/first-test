@@ -28,10 +28,12 @@ fn main() {
     //     println!("num is {}", nums);
     // }
 
-    let animals = vec!["Rabbit", "Dog", "Cat"];
-    for (index, animal)  in animals.iter().enumerate() {
-        println!("{}:{}",index,animal);
-    }
+    // let animals = vec!["Rabbit", "Dog", "Cat"];
+    // for (index, animal)  in animals.iter().enumerate() {
+    //     println!("{}:{}",index,animal);
+    // }
 
-    println!("animal 1 is {}", animals[0]);
+    let animals = [0; 20];
+
+    println!("animal 1 is {}", animals);
 }
